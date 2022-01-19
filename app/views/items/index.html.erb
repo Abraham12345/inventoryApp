@@ -1,0 +1,37 @@
+<p style="color: green"><%= notice %></p>
+<h1>Items</h1>
+<style>
+table, th, td {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+<div id="items">
+<center>
+<table>
+<tr>
+        <th>Thumbnail</th>
+        <th>Title</th>
+        <th>description</th>
+        <th>quantity</th>
+    </tr>
+  <tbody>
+  <% @items.each do |item| %>
+    
+    <tr>
+        <td><%= image_tag(item.thumbnail, width: "100") %></td>
+        <td><%= item.title %></td>
+        <td><%= item.description %></td>
+        <td><%= item.quantity %></td>
+        <td><%= link_to 'Show', item %></td>
+        <td><%= link_to 'Edit', edit_item_path(item) %></td>
+        <td><%= button_to "Destroy this item", item, method: :delete %></td>
+  </tr>
+    
+  <% end %>
+  </tbody>
+  </table>
+  </center>
+</div>
+
+<%= link_to "New item", new_item_path %>

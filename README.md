@@ -1,6 +1,5 @@
 # Project
-
-
+This is a simple inventory web app please refer to the video for a overview.
 
 ## Install
 This project uses Ruby on Rails to set up I have linked a more detailed installation [manual](https://guides.rubyonrails.org/getting_started.html) in general you will need to have:
@@ -38,7 +37,7 @@ rails --version
 ### Clone the repository
 Now that you are all set up you need to clone the repositiry 
 ```shell
-git clone git@github.com:afakir/project.git
+git clone git@github.com:Abraham12345/inventoryApp.git
 cd project
 ```
 

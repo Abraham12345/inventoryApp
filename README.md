@@ -1,6 +1,6 @@
 # Project
 This is a simple inventory web app please refer to the video for a overview.
-
+[![Inventory](https://img.youtube.com/vi/5PA0mf0hE7Y/0.jpg)](https://www.youtube.com/watch?v=5PA0mf0hE7Y)
 ## Install
 This project uses Ruby on Rails to set up I have linked a more detailed installation [manual](https://guides.rubyonrails.org/getting_started.html) in general you will need to have:
 

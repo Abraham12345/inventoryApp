@@ -37,7 +37,7 @@ rails --version
 ### Clone the repository
 Now that you are all set up you need to clone the repositiry 
 ```shell
-git clone git@github.com:Abraham12345/inventoryApp.git
+git clone https://github.com/Abraham12345/inventoryApp.git
 cd project
 ```
 
